@@ -1,0 +1,62 @@
+.landing-container {
+    min-height: 100vh;
+    width: 100%;
+    background: #05a389;
+    background: radial-gradient(circle at bottom right, rgba(5, 163, 137, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 1) 79%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    max-width: 90vh;
+    padding: 5vh;
+    margin-left: 5vh;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    line-height: 10vh;
+}
+
+.hero-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 9.0vh;
+    margin-top: 0vh;
+    padding: 2vh;
+}
+
+.content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.get-started-button {
+    position: absolute;
+    top: 60vh;
+    left: 17vh;
+    height: 10vh;
+    width: 30vh;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 1.5vh;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(5vh);
+}
+
+.login {
+    position: absolute;
+    top: 17vh;
+    right: 15vh;
+}

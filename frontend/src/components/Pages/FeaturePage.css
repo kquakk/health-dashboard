@@ -1,0 +1,158 @@
+.feature-page {
+    min-height: 100vh;
+    width: 100%;
+    background: #05a389;
+    background: radial-gradient(circle at top left, rgba(5, 163, 137, 0.92) 0%, rgba(9, 16, 22, 1) 48%, rgba(0, 0, 0, 1) 100%);
+}
+
+.feature-shell {
+    padding: 14vh 6vh 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.feature-hero {
+    max-width: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: left;
+}
+
+.feature-eyebrow {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8vh;
+    letter-spacing: 0.35vh;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.feature-title {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vh;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.feature-description,
+.feature-checkpoint,
+.feature-card li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2vh;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.feature-actions {
+    display: flex;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+
+.feature-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18vh;
+    padding: 1.6vh 2.6vh;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.feature-link.subtle {
+    background: transparent;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vh, 1fr));
+    gap: 2.5vh;
+}
+
+.metric-card,
+.feature-card {
+    border-radius: 2.4vh;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(8, 13, 18, 0.55);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 2vh 7vh rgba(0, 0, 0, 0.22);
+}
+
+.metric-card {
+    min-height: 18vh;
+    padding: 2.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.metric-label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8vh;
+    text-transform: uppercase;
+    letter-spacing: 0.28vh;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.metric-value {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.2vh;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.metric-value small {
+    font-size: 2vh;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34vh, 1fr));
+    gap: 2.5vh;
+}
+
+.feature-card {
+    padding: 3vh;
+    text-align: left;
+}
+
+.feature-card.wide {
+    grid-column: span 2;
+}
+
+.feature-card h2 {
+    margin-bottom: 2vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+    color: #ffffff;
+}
+
+.feature-card ul {
+    margin: 0;
+    padding-left: 2.6vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+}
+
+@media (max-width: 900px) {
+    .feature-shell {
+        padding: 12vh 3vh 5vh;
+    }
+
+    .feature-title {
+        font-size: 5.2vh;
+    }
+
+    .feature-card.wide {
+        grid-column: span 1;
+    }
+}

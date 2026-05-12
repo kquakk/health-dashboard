@@ -1,0 +1,93 @@
+.login-container {
+    width: 55vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3vh;
+    margin: 0;
+    padding: 0 3vh 3vh;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2vh;
+    background: rgba(10, 14, 20, 0.28);
+    box-sizing: border-box;
+}
+
+.input {
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6.5vh;
+    border-radius: 1vh;
+    margin: 2vh;
+    font-size: 2.5vh;
+}
+
+.user-input {
+    font-family: "Montserrat", sans-serif;
+    width: 50vh;
+    height: 6.5vh;
+    border-radius: 1vh;
+    font-size: 3vh;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+.pass-input {
+    font-family: "Montserrat", sans-serif;
+    width: 50vh;
+    height: 6.5vh;
+    border-radius: 1vh;
+    font-size: 3vh;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+.login-button {
+    position: relative;
+    top: 7vh;
+    width: 22vh;
+    height: 8vh;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 1.5vh;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(5vh);
+    delay: 0;
+}
+
+.login-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.login-title {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 5vh;
+    left: 2vh;
+    font-size: 7vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.login-feedback {
+    position: relative;
+    top: 5vh;
+    margin: 0 2vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vh;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.login-feedback.error {
+    color: #ffd4d4;
+}
+
+.login-feedback.success {
+    color: #d1ffe9;
+}
