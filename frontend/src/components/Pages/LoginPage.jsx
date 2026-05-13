@@ -1,9 +1,10 @@
 import React from 'react';
 import Login from '../UI/Login.jsx';
+import './LoginPage.css';
 
 function LoginPage () {
     return (
-        <div className='login-container'>
+        <div className='login-page-wrapper'>
             <Login />
         </div>
    );

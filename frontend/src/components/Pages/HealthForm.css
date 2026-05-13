@@ -41,13 +41,12 @@
     position: relative;
     left: -1vh;
     width: 7vh;
-    top: 2vh;
     border-radius: 1vh;
     height: 4.5vh;
 }
 
 .input-form {
-    width: 45vh;
+    width: 38vh;
     height: 4vh;
     border-radius: 1vh;
     margin: 2vh;
@@ -73,7 +72,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8vh;
     line-height: 1.45;
-    text-align: left;
+    text-align: center;
     color: rgba(255, 255, 255, 0.8);
 }
 
