@@ -7,10 +7,9 @@
     justify-content: flex-start;
     gap: 3vh;
     margin: 0;
-    padding: 0 3vh 3vh;
+    padding: 0;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 2vh;
-    background: rgba(10, 14, 20, 0.28);
     box-sizing: border-box;
 }
 
@@ -47,16 +46,16 @@
 
 .login-button {
     position: relative;
-    top: 7vh;
+    top: 4vh;
     width: 22vh;
     height: 8vh;
+    margin: 5vh;
     padding: 0;
     overflow: hidden;
     border-radius: 1.5vh;
     align-items: center;
     background: transparent;
     backdrop-filter: blur(5vh);
-    delay: 0;
 }
 
 .login-button:disabled {
@@ -68,7 +67,7 @@
     font-family: "Montserrat", sans-serif;
     position: relative;
     top: 5vh;
-    left: 2vh;
+    left: 7vh;
     font-size: 7vh;
     font-weight: bold;
     letter-spacing: 2px;
